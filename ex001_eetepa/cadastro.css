@@ -1,0 +1,80 @@
+body {
+    font-size: 20px;
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
+}
+.form {
+    margin-left: 37%;
+    background-color: deepskyblue;
+    border: 10px;
+    border-style: black;
+    border-radius: 20px;
+    width: 400px;
+    height: 590px;
+}
+.cadastro {
+    margin-left: 19%;
+    background-color: white;
+    width: 260px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input {
+    background: none;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    height: 30px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    width: 250px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.m {
+    background-color: black;
+}
+.enviar {
+    border: none;
+    background: none;
+    background-color: rgb(226, 36, 68);
+    width: 200px;
+    height: 40px;
+    margin-left: 28%;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+}
+.input::placeholder {
+    font-size: 20px;
+    font-size: Arial;
+}
+.fim {
+    list-style: none;
+
+    display: block;
+    justify-content: space-around;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.texto {
+    background-color: aqua;
+}
