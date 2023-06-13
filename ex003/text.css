@@ -1,0 +1,91 @@
+ body {
+     font-family: Arial; /*Vai aplicar uma fonte arial ao body*/
+     font-size: 20pt; /*Vai definir um tamanho de 20pt a fonte do body*/
+     margin: 0; /*body vai ter uma margin de 0*/
+     padding: 0; /*body vai ter um padding de 0*/
+ }
+ /*seletor para identificar o body*/
+
+ .header {
+     background-color: black; /*O header vai ter um fundo de cor preto*/
+     color: white; /*O header vai ter paragrafós de cor branca -"white" */
+ }
+ /*classe header cabeça para identificar o topo da página*/
+
+ .footer {
+     background-color: black; /*O footer vai ter um fundo de cor preto*/
+     color: white; /*O footer vai ter paragrafós de cor branca -"white" */
+ }
+ /*classe footer, fim*/
+
+ .menu {
+     display: flex; /*Vai organizar a classe menu_opções na tela*/
+     justify-content: flex-end; /*Vai organizar o menu_opções lado a lado*/
+     align-items: center; /*Vai organizar os elemenstos no centro da tag <header>*/
+     margin: 0px; 
+ }
+ /*classe menu para estilizar as opções do header*/
+
+ .opções {
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+     font-size: 18px;
+ }
+ /*Essa classe vai ser usada para remover as configurações das listas da classe menu*/
+
+ .menu_opções {
+     text-decoration: none;
+     color: white;
+     margin: 10px
+ }
+ /*Essa classe vai ser utilizada para remover as configuarações padrões da tag <a>*/
+
+ #h1 {
+    font-size: 25pt;
+    color: red;
+ }
+ #li {
+    list-style: none;
+    position: relative;
+    right: 30%;
+ }
+ .busca {
+    background-color: white;
+    width: 219px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ #input {
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+    height: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+ }
+ .btn {
+    border: none;
+    background: none;
+    margin-right: 0%;
+    height: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #li2 {
+    margin-right: 50px;
+ }
